@@ -29,24 +29,24 @@ class IndikatorSeeder extends Seeder
             ['id_indikator' => '16', 'nama_indikator' => 'Persalinan oleh nakes', 'id_program' => 1, 'target' => 100, 'satuan' => '%'],
 
             // PROGRAM Anak Usia Sekolah & Remaja (ID: 2)
-            ['id_indikator' => '8dab1e1f', 'nama_indikator' => 'Sekolah setingkat SD/MI/SDLB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => 'd309f5fe', 'nama_indikator' => 'Sekolah setingkat SMP/MTs/SMPLB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '77ec6856', 'nama_indikator' => 'Sekolah setingkat SMA/MA/SMK/SMALB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '48276604', 'nama_indikator' => 'Pelayanan Kesehatan pada Usia Pendidikan Dasar kelas 1 sampai dengan kelas 9', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => 'e26b96f0', 'nama_indikator' => 'Skrining anemia pada remaja putri', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => 'f1a90760', 'nama_indikator' => 'Remaja putri mengonsumsi tablet tambah darah', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '17', 'nama_indikator' => 'Sekolah setingkat SD/MI/SDLB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '18', 'nama_indikator' => 'Sekolah setingkat SMP/MTs/SMPLB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '19', 'nama_indikator' => 'Sekolah setingkat SMA/MA/SMK/SMALB yang melaksanakan skrining kesehatan', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '20', 'nama_indikator' => 'Pelayanan Kesehatan pada Usia Pendidikan Dasar kelas 1 sampai dengan kelas 9', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '21', 'nama_indikator' => 'Skrining anemia pada remaja putri', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '22', 'nama_indikator' => 'Remaja putri mengonsumsi tablet tambah darah', 'id_program' => 2, 'target' => 100, 'satuan' => '%'],
 
             // PROGRAM GIZI (ID: 3)
-            ['id_indikator' => 'f2605129', 'nama_indikator' => 'Ibu hamil KEK mendapat makanan tambahan', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '33562ad2', 'nama_indikator' => 'Anak 6-23 bulan mendapatkan MP-ASI', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '65aefb15', 'nama_indikator' => 'Pemberian Suplementasi Vitamin A pada Balita Usia 6-59 Bulan', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '335b34f8', 'nama_indikator' => 'Pemberian tambahan asupan gizi bagi balita gizi kurang', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '52a76ecc', 'nama_indikator' => 'Balita gizi buruk mendapat perawatan sesuai standar', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '665c53d2', 'nama_indikator' => 'Stunting', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '7126ba9b', 'nama_indikator' => 'Underweight', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '20e2a9cc', 'nama_indikator' => 'Wasting', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => '886c261d', 'nama_indikator' => 'Bayi usia 6 bulan mendapat ASI Eksklusif', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
-            ['id_indikator' => 'bc4b84a8', 'nama_indikator' => 'Ibu hamil mendapat suplementasi gizi', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '23', 'nama_indikator' => 'Ibu hamil KEK mendapat makanan tambahan', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '24', 'nama_indikator' => 'Anak 6-23 bulan mendapatkan MP-ASI', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '25', 'nama_indikator' => 'Pemberian Suplementasi Vitamin A pada Balita Usia 6-59 Bulan', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '26', 'nama_indikator' => 'Pemberian tambahan asupan gizi bagi balita gizi kurang', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '27', 'nama_indikator' => 'Balita gizi buruk mendapat perawatan sesuai standar', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '28', 'nama_indikator' => 'Stunting', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '29', 'nama_indikator' => 'Underweight', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '30', 'nama_indikator' => 'Wasting', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '31', 'nama_indikator' => 'Bayi usia 6 bulan mendapat ASI Eksklusif', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
+            ['id_indikator' => '32', 'nama_indikator' => 'Ibu hamil mendapat suplementasi gizi', 'id_program' => 3, 'target' => 100, 'satuan' => '%'],
         ];
 
         foreach ($indikators as $item) {
