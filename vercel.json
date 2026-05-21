@@ -1,18 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/index.php",
-      "use": "@vercel/php"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "public/index.php"
-    }
-  ],
-  "framework": null,
+  "framework": "laravel",
   "installCommand": "curl -sS https://getcomposer.org/installer | php && php composer.phar install",
-  "buildCommand": "php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache"
+  "buildCommand": "php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache",
+  "outputDirectory": "public"
 }
